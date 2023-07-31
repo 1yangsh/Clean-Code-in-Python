@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clean-code-in-python"
+version = "0.1.0"
+description = ""
+authors = ["Seunghyeon Yang <61305117+1yangsh@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "clean_code_in_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mypy = "^1.4.1"
+pylint = "^2.17.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
